@@ -14,10 +14,7 @@ public class AssertTest {
 	public void fun2(){
 		AssertUtil.isFalse(false, "这不是false");
 	}
-	@Test
-	public void fun3(){
-		AssertUtil.hasNoLength("","这不是一个字符串");
-	}
+	
 	@Test
 	public void fun4(){
 		AssertUtil.haslength("zhuhagi", "这是一个字符串");
